@@ -13,6 +13,9 @@
 		E597500D29910C99003F100D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E597500C29910C99003F100D /* Assets.xcassets */; };
 		E597501029910C99003F100D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E597500E29910C99003F100D /* LaunchScreen.storyboard */; };
 		E597501F2993BBA7003F100D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E597501E2993BBA7003F100D /* Kingfisher */; };
+		E59750222993C818003F100D /* NewsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59750202993C818003F100D /* NewsCVC.swift */; };
+		E59750232993C818003F100D /* NewsCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E59750212993C818003F100D /* NewsCVC.xib */; };
+		E59750252993CD77003F100D /* NewsDisplayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59750242993CD77003F100D /* NewsDisplayVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		E597500C29910C99003F100D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E597500F29910C99003F100D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E597501129910C99003F100D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E59750202993C818003F100D /* NewsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCVC.swift; sourceTree = "<group>"; };
+		E59750212993C818003F100D /* NewsCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCVC.xib; sourceTree = "<group>"; };
+		E59750242993CD77003F100D /* NewsDisplayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDisplayVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				E597500329910C97003F100D /* AppDelegate.swift */,
 				E597500729910C97003F100D /* NewsFeedVC.swift */,
+				E59750242993CD77003F100D /* NewsDisplayVC.swift */,
+				E59750202993C818003F100D /* NewsCVC.swift */,
+				E59750212993C818003F100D /* NewsCVC.xib */,
 				E597500929910C97003F100D /* Main.storyboard */,
 				E597500C29910C99003F100D /* Assets.xcassets */,
 				E597500E29910C99003F100D /* LaunchScreen.storyboard */,
@@ -131,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E597501029910C99003F100D /* LaunchScreen.storyboard in Resources */,
+				E59750232993C818003F100D /* NewsCVC.xib in Resources */,
 				E597500D29910C99003F100D /* Assets.xcassets in Resources */,
 				E597500B29910C97003F100D /* Main.storyboard in Resources */,
 			);
@@ -144,6 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E597500829910C97003F100D /* NewsFeedVC.swift in Sources */,
+				E59750222993C818003F100D /* NewsCVC.swift in Sources */,
+				E59750252993CD77003F100D /* NewsDisplayVC.swift in Sources */,
 				E597500429910C97003F100D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +306,7 @@
 				DEVELOPMENT_TEAM = 597MRPLSQU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "news-app/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = News;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,6 +339,7 @@
 				DEVELOPMENT_TEAM = 597MRPLSQU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "news-app/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = News;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
