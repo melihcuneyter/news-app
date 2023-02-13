@@ -20,6 +20,9 @@ final class NewsFeedVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "Güncel Haberler"
+        navigationController?.navigationBar.prefersLargeTitles = true
+        
         fetchdata()
         
         collectionView.register(.init(nibName: "NewsCVC", bundle: nil), forCellWithReuseIdentifier: "NewsCVC")

@@ -17,7 +17,8 @@ class NewsCVC: UICollectionViewCell {
         super.awakeFromNib()
         
         contentView.layer.cornerRadius = 10
-        contentView.backgroundColor = .red
+        contentView.layer.borderWidth = 1
+        contentView.layer.borderColor = .init(red: 255, green: 255, blue: 255, alpha: 1)
     }
     
     func configureCell(arr: [String]) {
